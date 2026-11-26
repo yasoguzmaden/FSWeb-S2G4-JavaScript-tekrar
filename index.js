@@ -37,6 +37,8 @@ const sayilar = [
 
 //Örneğin çözümü:
 function KareninAlani(kenaruzunlugu) {
+
+
   return kenaruzunlugu * kenaruzunlugu;
 }
 
@@ -50,8 +52,9 @@ function KareninAlani(kenaruzunlugu) {
 	4. Hesaplanan çemberin çevresi döndürülecektir.
 */
 
-function CemberinCevresi(/* kodlar buraya */) {
+function CemberinCevresi(/* kodlar buraya */yaricap) {
   /* kodlar buraya */
+  return 2*yaricap*pi;
 }
 
 /* (Oto test yok) Yukarıdaki CemberinCevresi fonksiyonunu yarıçap = 5 vererek aşağıda çalıştırıp, sonucu konsolda gözlemleyin (console.log)  */
@@ -127,6 +130,8 @@ function sa() {
   console.log("Kodlar çalışıyor");
   return "as";
 }
+console.log(KareninAlani(10));
+console.log(CemberinCevresi(5));
 sa();
 module.exports = {
   sa,
