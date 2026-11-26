@@ -143,7 +143,27 @@ siralisayilar=besyuzdenkucuksayilar.sort((a,b)=>a-b);
 // 3f çözümü
 
 /* kodlar buraya */
+const sayac={};
+tekraredensayilar=[];
+for (let i=0;i<sayilar.length;i++)
+{
+  const sayi=sayilar[i];
+  if(sayac[sayi])
+  {
+    sayac[sayi]++;
+  }else{
+    sayac[sayi]=1;
+  }
+}
 
+for(const sayi in sayac)
+{
+  if(sayac[sayi]>1)
+  {
+    tekraredensayilar.push(`${sayi} sayısı ${sayac[sayi]} kere tekrar edilmiştir`);
+  }
+  
+}
 /*  Bu satırın aşağısındaki kodları lütfen değiştirmeyin  */
 
 function sa() {
