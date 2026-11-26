@@ -131,7 +131,7 @@ sayilar.forEach(sayi=>
 // 3c çözümü:
 
 /* kodlar buraya */
-
+ucebolunenlerintoplami=ucetambolunenler.reduce((acc,sayi)=>acc+sayi,0);
 // 3d çözümü
 
 /* kodlar buraya */
