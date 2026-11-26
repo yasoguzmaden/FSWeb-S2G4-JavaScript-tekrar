@@ -67,8 +67,9 @@ function CemberinCevresi(/* kodlar buraya */yaricap) {
 	4. Hesaplanan çemberin alanı döndürülecektir.
 */
 
-function CemberinAlani(/* kodlar buraya */) {
+function CemberinAlani(/* kodlar buraya */yaricap,pi) {
   /* kodlar buraya */
+  return Math.pow(yaricap,2)*pi;
 }
 
 /* (Oto test yok) Yukarıdaki CemberinAlani fonksiyonunu yarıçap = 15 vererek aşağıda çalıştırıp, sonucu konsolda gözlemleyin (console.log)  */
@@ -132,6 +133,7 @@ function sa() {
 }
 console.log(KareninAlani(10));
 console.log(CemberinCevresi(5));
+console.log(CemberinAlani(15));
 sa();
 module.exports = {
   sa,
