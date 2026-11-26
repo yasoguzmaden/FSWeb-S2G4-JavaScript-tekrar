@@ -120,7 +120,14 @@ for(let i=0;i<sayilar.length;i++)
 // 3b çözümü:
 
 /* kodlar buraya */
+ucetambolunenler=[];
+sayilar.forEach(sayi=>
+  {
+    if(sayi%3===0){ 
 
+      ucetambolunenler.push(sayi);
+    }
+  });
 // 3c çözümü:
 
 /* kodlar buraya */
