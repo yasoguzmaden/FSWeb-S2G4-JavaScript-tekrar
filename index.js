@@ -139,7 +139,7 @@ besyuzdenkucuksayilar=sayilar.filter(sayi=>sayi<500);
 // 3e çözümü
 
 /* kodlar buraya */
-
+siralisayilar=besyuzdenkucuksayilar.sort((a,b)=>a-b);
 // 3f çözümü
 
 /* kodlar buraya */
