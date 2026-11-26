@@ -135,7 +135,7 @@ ucebolunenlerintoplami=ucetambolunenler.reduce((acc,sayi)=>acc+sayi,0);
 // 3d çözümü
 
 /* kodlar buraya */
-
+besyuzdenkucuksayilar=sayilar.filter(sayi=>sayi<500);
 // 3e çözümü
 
 /* kodlar buraya */
